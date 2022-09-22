@@ -128,7 +128,7 @@ int main(int argc, char* argv[]) {
 			continue;
 		}
 			printf("DATA: ");
-			for (int i = 0; i < 8; i++)
+			for (int i = 0; i < 10; i++)
 			{
 				printf("%02X ", *data);
 				data += 1;
